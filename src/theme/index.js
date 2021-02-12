@@ -38,7 +38,9 @@ const colors = {
     },
 };
 export default {
-    colors,
+    colors, 
     borderRadius: '8px',
+    fontFamily: '\'Rubix\', sans-serif',
     transition: '200ms ease-in-out',
+
 }

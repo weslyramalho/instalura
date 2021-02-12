@@ -22,7 +22,7 @@ font-weight: bold;
 opacity: 1;
 border-radius: 8px;
 ${function(props) {
-   console.log('<Button />', props.variant, props.theme, get(props.theme, 'colors.${props.variant}.color'));
+  // console.log('<Button />', props.variant, props.theme, get(props.theme, 'colors.${props.variant}.color'));
     if(props.ghost){
         return ButtonGhost;
     }
