@@ -2240,6 +2240,11 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+todash@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/todash/-/todash-1.0.5.tgz#9eec1ed8ac3bbf72388ce6fb365dfea8b313e6ab"
+  integrity sha512-Kk48B7qyDLyWetMMULvIw5zMO4hAq6abeMGfNaguuQg+gEIlIDY6oDCSW+cmB6OzRnv2zxHuYXOVvSCIqGWEkA==
+
 toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
