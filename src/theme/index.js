@@ -1,4 +1,5 @@
 import { typographyVariants } from './typographyVariants'
+
 const colors = {
     background: {
         light:{
@@ -38,10 +39,18 @@ const colors = {
         dark: {},
     },
 };
+export const breakpoints = {
+    xs: 0,
+    sm: 480,
+    md: 768,
+    lg: 992,
+    xl: 1200,
+  };
 export default {
     colors, 
     typographyVariants,
-    borderRadius: '8px',
+    breakpoints,
+    borderRadius: '12px',
     fontFamily: '\'Rubix\', sans-serif',
     transition: '200ms ease-in-out',
 
