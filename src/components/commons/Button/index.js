@@ -2,6 +2,7 @@ import styled, {css} from 'styled-components';
 import get from 'lodash/get';
 import { breakpointsMedia } from '../../../theme/utils/breakpointsMedia';
 import { TextStyleVariants } from '../../foundation/Text';
+import { propToStyle } from '../../../theme/utils/propToStyle';
 
 const ButtonGhost =css`
 color: ${(props) => get(props.theme, `colors.${props.variant}.color`)};
@@ -54,4 +55,6 @@ ${breakpointsMedia({
     `,
 })}
 
+${propToStyle('margin')}
+${propToStyle('display')}
 `;
